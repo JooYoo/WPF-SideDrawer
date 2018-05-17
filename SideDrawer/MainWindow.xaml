@@ -1,0 +1,51 @@
+﻿<Window x:Class="SideDrawer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SideDrawer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Column="2">
+           
+            <StackPanel Panel.ZIndex="2" Name="pnlRightMenu" Orientation="Horizontal" Height="400" HorizontalAlignment="Right" Margin="0,0,-150,0">
+                <Grid>
+                   <!--这里加入的元素会随着StackPanel一起挤向左方-->
+                </Grid>
+                <Border BorderBrush="#AF1719" BorderThickness="1" Width="150" Background="DarkGray">
+                    <StackPanel>
+                        <Button Name="btnRightMenuHide" Width="48" Height="48" Click="btnRightMenuHide_Click" Content="Hide" Visibility="Hidden" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+                        <Button Content="1" Margin="8"/>
+                        <Button Content="2" Margin="8"/>
+                        <Button Content="3" Margin="8"/>
+                        <Button Content="4" Margin="8"/>
+                        <Button Content="5" Margin="8"/>
+                        <Button Content="6" Margin="8"/>
+                        <Button Content="7" Margin="8"/>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+            <Label Content="column 2"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Bottom"/>
+            <Button Name="btnRightMenuShow" Width="48" Height="48" Click="btnRightMenuShow_Click" Content="Show" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+        </Grid>
+
+    </Grid>
+    
+    <Window.Resources>
+        <Storyboard x:Key="sbShowRightMenu" >
+            <ThicknessAnimation Storyboard.TargetProperty="Margin" From="0,0,-150,0" To="0,0,0,0" DecelerationRatio=".9" Duration="0:0:1" />
+        </Storyboard>
+        <Storyboard x:Key="sbHideRightMenu">
+            <ThicknessAnimation Storyboard.TargetProperty="Margin" From="0,0,0,0" To="0,0,-150,0" AccelerationRatio=".9" Duration="0:0:1" />
+        </Storyboard>
+    </Window.Resources>
+</Window>

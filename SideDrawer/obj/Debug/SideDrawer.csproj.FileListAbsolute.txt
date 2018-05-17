@@ -1,0 +1,15 @@
+C:\Users\yzhu\Desktop\SideDrawer\SideDrawer\bin\Debug\SideDrawer.exe.config
+C:\Users\yzhu\Desktop\SideDrawer\SideDrawer\bin\Debug\SideDrawer.exe
+C:\Users\yzhu\Desktop\SideDrawer\SideDrawer\bin\Debug\SideDrawer.pdb
+C:\Users\yzhu\Desktop\SideDrawer\SideDrawer\obj\Debug\SideDrawer.csprojResolveAssemblyReference.cache
+C:\Users\yzhu\Desktop\SideDrawer\SideDrawer\obj\Debug\MainWindow.g.cs
+C:\Users\yzhu\Desktop\SideDrawer\SideDrawer\obj\Debug\App.g.cs
+C:\Users\yzhu\Desktop\SideDrawer\SideDrawer\obj\Debug\SideDrawer_MarkupCompile.cache
+C:\Users\yzhu\Desktop\SideDrawer\SideDrawer\obj\Debug\SideDrawer_MarkupCompile.lref
+C:\Users\yzhu\Desktop\SideDrawer\SideDrawer\obj\Debug\MainWindow.baml
+C:\Users\yzhu\Desktop\SideDrawer\SideDrawer\obj\Debug\SideDrawer.g.resources
+C:\Users\yzhu\Desktop\SideDrawer\SideDrawer\obj\Debug\SideDrawer.Properties.Resources.resources
+C:\Users\yzhu\Desktop\SideDrawer\SideDrawer\obj\Debug\SideDrawer.csproj.GenerateResource.Cache
+C:\Users\yzhu\Desktop\SideDrawer\SideDrawer\obj\Debug\SideDrawer.csproj.CoreCompileInputs.cache
+C:\Users\yzhu\Desktop\SideDrawer\SideDrawer\obj\Debug\SideDrawer.exe
+C:\Users\yzhu\Desktop\SideDrawer\SideDrawer\obj\Debug\SideDrawer.pdb
